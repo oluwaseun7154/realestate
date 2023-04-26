@@ -11,6 +11,7 @@ import { AgentsComponent } from './pages/agents/agents.component';
 import { PagesComponent } from './pages/pages/pages.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { SubmitpropertyComponent } from './pages/submitproperty/submitproperty.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SubmitpropertyComponent } from './pages/submitproperty/submitproperty.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
